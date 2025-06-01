@@ -72,34 +72,34 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ],
       ),
-      drawer: Drawer(
-        child: ListView(
-          padding: EdgeInsets.zero,
-          children: <Widget>[
-            const DrawerHeader(
-              decoration: BoxDecoration(color: Colors.blue),
-              child: Text(
-                'Drawer Header',
-                style: TextStyle(color: Colors.white, fontSize: 24),
-              ),
-            ),
-            ListTile(
-              leading: const Icon(Icons.message),
-              title: const Text('Messages'),
-              onTap: () {
-                // Handle the tap
-              },
-            ),
-            ListTile(
-              leading: const Icon(Icons.account_circle),
-              title: const Text('Profile'),
-              onTap: () {
-                // Handle the tap
-              },
-            ),
-          ],
-        ),
-      ),
+      // drawer: Drawer(
+      //   child: ListView(
+      //     padding: EdgeInsets.zero,
+      //     children: <Widget>[
+      //       const DrawerHeader(
+      //         decoration: BoxDecoration(color: Colors.blue),
+      //         child: Text(
+      //           'Drawer Header',
+      //           style: TextStyle(color: Colors.white, fontSize: 24),
+      //         ),
+      //       ),
+      //       ListTile(
+      //         leading: const Icon(Icons.message),
+      //         title: const Text('Messages'),
+      //         onTap: () {
+      //           // Handle the tap
+      //         },
+      //       ),
+      //       ListTile(
+      //         leading: const Icon(Icons.account_circle),
+      //         title: const Text('Profile'),
+      //         onTap: () {
+      //           // Handle the tap
+      //         },
+      //       ),
+      //     ],
+      //   ),
+      // ),
       bottomSheet: const Padding(
         padding: EdgeInsets.all(8.0),
         child: Text('This is a bottom sheet', style: TextStyle(fontSize: 16)),
